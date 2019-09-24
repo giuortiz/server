@@ -1,0 +1,7 @@
+C:\Users\Xolis\source\repos\Solution2\Server\bin\Release\Server.exe.config
+C:\Users\Xolis\source\repos\Solution2\Server\bin\Release\Server.exe
+C:\Users\Xolis\source\repos\Solution2\Server\bin\Release\Server.pdb
+C:\Users\Xolis\source\repos\Solution2\Server\obj\Release\Server.csprojAssemblyReference.cache
+C:\Users\Xolis\source\repos\Solution2\Server\obj\Release\Server.csproj.CoreCompileInputs.cache
+C:\Users\Xolis\source\repos\Solution2\Server\obj\Release\Server.exe
+C:\Users\Xolis\source\repos\Solution2\Server\obj\Release\Server.pdb
