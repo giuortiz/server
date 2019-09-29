@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -6,6 +6,10 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web.Script.Serialization;
+using FireSharp.Config;
+using FireSharp.Interfaces;
+using FireSharp.Response;
+
 
 namespace Server
 {
@@ -22,12 +26,30 @@ namespace Server
     }
     class Program
     {
+       
         static void Main(string[] args)
         {
+            IFirebaseConfig config = new FirebaseConfig
+            {
+
+                AuthSecret = "vNjQYdNpuwwTruVnOkWk6b8gqwGvD7FSSdes9hFT", 
+                BasePath = "https://bd-redes-77e4c.firebaseio.com/"
+            };
+            IFirebaseClient cliente;
+            cliente =new  FireSharp.FirebaseClient(config);
             Grupo RegisteredUsers = new Grupo();
             RegisteredUsers.Integrantes = new List<Pessoa>();
 
-         //   RegisteredUsers.Tema = "Idade Média";
+          //  async void insereTeste()
+           // {
+           //     var Pessoa = new Pessoa() { nUsp = 9911430, Nome = "Gabriel Folegatti Santana" };
+           //     SetResponse response = await cliente.SetTaskAsync("Pessoa/" + Pessoa.Nome,Pessoa );
+           //     Pessoa result = response.ResultAs<Pessoa>();
+           //     Console.WriteLine(result.Nome);
+          //  }
+           // insereTeste();
+
+            //   RegisteredUsers.Tema = "Idade Média";
             RegisteredUsers.Integrantes.Add(new Pessoa() {nUsp = 9878079, Nome = "Giuliano Ortiz Goria"});
             RegisteredUsers.Integrantes.Add(new Pessoa() {nUsp = 991490, Nome = "Nicole Wilcox"});
             RegisteredUsers.Integrantes.Add(new Pessoa() {nUsp = 9911520, Nome = "Adrian Martinson" });
