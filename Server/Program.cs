@@ -1,5 +1,4 @@
 
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -47,6 +46,7 @@ namespace Server
             cliente = new FireSharp.FirebaseClient(config);
             Grupo RegisteredUsers = new Grupo();
             RegisteredUsers.Integrantes = new List<Pessoa>();
+       
 
             //insereTeste();
             List<Pessoa> estudantes = new List<Pessoa>();
@@ -115,11 +115,18 @@ namespace Server
                 Console.WriteLine("Iniciando servidor...");
 
                 // we set our IP address as server's address, and we also set the port: 9999
-                try {
-                    server.Start(); 
-                } catch {
-                    servidor();
+                try
+                {
+                    server.Start();
+            
                 }
+                catch
+                {
+                    server.Stop();
+                    servidor();
+
+                }
+              
                 Console.WriteLine("Servidor iniciado...");
                 // this will start the serve
                 Console.WriteLine("Esperando alguma conexão...");
