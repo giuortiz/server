@@ -42,17 +42,17 @@ namespace Server
             estudantes.Add(new Pessoa() { nUsp = 991490, Nome = "Nicole Wilcox", pertenceGrupo = false });
             estudantes.Add(new Pessoa() { nUsp = 9911520, Nome = "Adrian Martinson", pertenceGrupo = false });
             estudantes.Add(new Pessoa() { nUsp = 9911455, Nome = "Nora Osborn", pertenceGrupo = false });
-            estudantes.Add(new Pessoa() { nUsp = 9878079, Nome = "Indio Zellar", pertenceGrupo = false });
+            estudantes.Add(new Pessoa() { nUsp = 9878079, Nome = "Gustavo Zellar", pertenceGrupo = false });
             estudantes.Add(new Pessoa() { nUsp = 991490, Nome = "Victor Zellar", pertenceGrupo = false });
-            estudantes.Add(new Pessoa() { nUsp = 9911520, Nome = "Monstruosidade Monstruosa", pertenceGrupo = false });
+            estudantes.Add(new Pessoa() { nUsp = 9911520, Nome = "Marcelo Milka", pertenceGrupo = false });
             estudantes.Add(new Pessoa() { nUsp = 9911455, Nome = "Enzo Zellar", pertenceGrupo = false });
             estudantes.Add(new Pessoa() { nUsp = 9878079, Nome = "Jairo Justus", pertenceGrupo = false });
-            estudantes.Add(new Pessoa() { nUsp = 991490, Nome = "Como Estamos?", pertenceGrupo = false });
+            estudantes.Add(new Pessoa() { nUsp = 991490, Nome = "Fred Simon", pertenceGrupo = false });
             estudantes.Add(new Pessoa() { nUsp = 9911520, Nome = "Spider Silva", pertenceGrupo = false });
-            estudantes.Add(new Pessoa() { nUsp = 9911455, Nome = "jorginho Doze", pertenceGrupo = false });
+            estudantes.Add(new Pessoa() { nUsp = 9911455, Nome = "Jorge Jackson", pertenceGrupo = false });
             estudantes.Add(new Pessoa() { nUsp = 9878079, Nome = "Ingrid Gabrielly", pertenceGrupo = false });
-            estudantes.Add(new Pessoa() { nUsp = 991490, Nome = "Olaff Cornin", pertenceGrupo = false });
-            estudantes.Add(new Pessoa() { nUsp = 9911455, Nome = "Psyduck da Silva", pertenceGrupo = false });
+            estudantes.Add(new Pessoa() { nUsp = 991490, Nome = "Olaff Junior", pertenceGrupo = false });
+            estudantes.Add(new Pessoa() { nUsp = 9911455, Nome = "Juão Barnes", pertenceGrupo = false });
 
 
             var grupos = new List<Grupo>();
